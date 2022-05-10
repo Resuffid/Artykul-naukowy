@@ -1,22 +1,35 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper,final,oneside,onecolumn,titlepage]{article}
+\usepackage{times}
+\usepackage{geometry}
 \usepackage{setspace}
-\doublespacing
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[pagewise]{lineno}
+\newgeometry{tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm}
+\setlength{\parindent}{10mm}
+\setlength{\parskip}{0mm}
 \linenumbers
-\usepackage[polish]{babel}
-\usepackage{fontspec}
-\usepackage{polyglossia}
-\setmainlanguage{polish}
-\setmainfont{Times New Roman}
+\doublespacing
 
 \begin{document}
-    \begin{titlepage}
-        \centering
-        {\scshape\LARGE Gdański Uniwersytet Medyczny \par}
-        \vspace{1cm}
-        {\scshape\Large Praca zaliczeniowa z przedmiotu metodologia badań psychologicznych \par}
-        \vspace{1cm}
-        {huge\bfseries Zależność między modyfikowaniem swojego wizerunku na platformie Instagram, a oceną postrzegania swojego ciała wśród kobiet \par}
-        \vspace{1cm}
-        {\Large\itshape Sara Pasturczak, Aleksandra Popowska, Wiktor Warchałowski \par}
-    \end{titlepage}
+\bibliographystyle{newapa}
+\begin{titlepage}
+  \begin{center}
+  \vspace*{1cm}
+  \LARGE
+  \textbf{\textsc{Zależność między modyfikowaniem swojego wizerunku na platformie Instagram, a oceną postrzegania swojego ciała wśród kobiet\\}}
+  \vspace{1.5cm}
+  \LARGE
+  \textit{Sara Pasturczak, Aleksandra Popowska, Wiktor Warchałowski\\}
+  \Large
+  Wydział Nauk o Zdrowiu, Gdański Uniwersytet Medyczny\\
+  \vspace{3cm}
+  Praca zaliczeniowa z przedmiotu Metodologia Badań Psychologicznych napisana pod kierunkiem dr Małgorzaty Basińskiej\\
+  \vspace{3cm}
+  Gdańsk, 24 Maja 2022
+  \end{center}
+\end{titlepage}
+\end{document}
