@@ -7,6 +7,11 @@ Blowers, L.~C., Loxton, N.~J., Grady-Flesser, M., Occhipinti, S., and Dawe, S.
   dissatisfaction in preadolescent girls.
 \newblock {\em Eating Behaviors}, 4(3):229--244.
 
+\bibitem[Cohen, 1977]{cohen_statistical_1977}
+Cohen, J. (1977).
+\newblock {\em Statistical power analysis for the behavioral sciences}.
+\newblock Academic Press, New York, rev. ed edition.
+
 \bibitem[Giorgianni et~al., 2020]{giorgianni_consumer_2020}
 Giorgianni, F., Danthinne, E., and Rodgers, R.~F. (2020).
 \newblock Consumer warning versus systemic change: {The} effects of including
@@ -21,7 +26,7 @@ Grabe, S., Ward, L.~M., and Hyde, J.~S. (2008).
 \newblock {\em Psychological Bulletin}, 134(3):460--476.
 
 \bibitem[Kleemans et~al., 2018]{kleemans_picture_2018}
-Kleemans, M., Daalmans, S., Carbaat, I., and Ansch{\"u}tz, D. (2018).
+Kleemans, M., Daalmans, S., Carbaat, I., and Anschütz, D. (2018).
 \newblock Picture {Perfect}: {The} {Direct} {Effect} of {Manipulated}
   {Instagram} {Photos} on {Body} {Image} in {Adolescent} {Girls}.
 \newblock {\em Media Psychology}, 21(1):93--110.
@@ -47,7 +52,8 @@ McLean, S.~A., Paxton, S.~J., Wertheim, E.~H., and Masters, J. (2015).
 \bibitem[Nesi and Prinstein, 2019]{nesi_search_2019}
 Nesi, J. and Prinstein, M.~J. (2019).
 \newblock In {Search} of {Likes}: {Longitudinal} {Associations} {Between}
-  {Adolescents}' {Digital} {Status} {Seeking} and {Health}-{Risk} {Behaviors}.
+  {Adolescents}’ {Digital} {Status} {Seeking} and {Health}-{Risk}
+  {Behaviors}.
 \newblock {\em Journal of Clinical Child \& Adolescent Psychology},
   48(5):740--748.
 
@@ -68,10 +74,10 @@ Tylka, T.~L. and Wood-Barcalow, N.~L. (2015).
   psychometric evaluation.
 \newblock {\em Body Image}, 12:53--67.
 
-\bibitem[Welch, 1947]{welch1947generalization}
+\bibitem[Welch, 1947]{welch_generalization_1947}
 Welch, B.~L. (1947).
-\newblock The generalization of `student's'problem when several different
-  population varlances are involved.
-\newblock {\em Biometrika}, 34(1-2):28 -- 35.
+\newblock The generalization of "{Student}'s" problem when several different
+  population variances are involved.
+\newblock {\em Biometrika}, 34(1/2):28--35.
 
 \end{thebibliography}
