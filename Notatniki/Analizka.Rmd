@@ -1,0 +1,85 @@
+---
+title: "Analiza2"
+author: "Wiktor Warchałowski"
+date: "4/26/2022"
+output: html_document
+---
+# Paczki
+```{r}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(gt)
+library(tinytex)
+library(officer)
+library(huxtable)
+library(psych)
+library(lsr)
+```
+
+# Import
+```{r}
+ostateczne <- read_csv("Notatnik.csv")
+```
+```{r}
+glimpse(ostateczne)
+```
+
+# Statystyki opisowe
+```{r}
+#Liczność
+#Średnia
+#Odchylenie standardowe
+#Test Welcha
+ostateczne %>%
+  group_by(Modyfikacja) %>%
+  summarise(liczebnosc = n(),
+            M = mean(Suma),
+            SD = sd(Suma),
+            min = min(Suma),
+            max = max(Suma),
+            Mediana = median(Suma),
+            Rozstęp = max(Suma)-min(Suma)
+            )
+t_suma <- t.test(Suma ~ Modyfikacja, data = ostateczne, subset = Modyfikacja == "Tak" | Modyfikacja == "Nie")
+t_suma
+
+#Test Shapiro-Wilka
+shapiro.test(ostateczne$Suma)
+```
+
+```{r}
+# D-cohena (siła efektu)
+cohensD(Suma ~ Modyfikacja, data = ostateczne)
+```
+
+# Histogramy
+```{r}
+ggplot(ostateczne) +
+  geom_histogram(aes(x=Suma), binwidth = 5)
+ggsave("histogram_all.png", last_plot())
+ggplot(ostateczne %>% filter(Modyfikacja=="Nie")) +
+  geom_histogram(aes(x=Suma), binwidth = 5)
+ggsave("histogram_Nie.png", last_plot())
+ggplot(ostateczne %>% filter(Modyfikacja=="Tak")) +
+  geom_histogram(aes(x=Suma), binwidth = 5)
+ggsave("histogram_Tak.png", last_plot())
+```
+
+# Box plot
+```{r}
+ggplot(ostateczne) +
+  geom_boxplot(aes(x=Modyfikacja, y=Suma)) +
+  xlab("Modyfikacja zdjęć") +
+  ylab("Wynik zadowolenia z ciała") +
+  theme_classic()
+ggsave(
+  filename = "boxwhisk.png",
+  plot = last_plot())
+  
+```
+
+```{r}
+#test Kołmogorowa-Smirnowa
+ks.test(ostateczne$Suma, "pnorm", mean=mean(ostateczne$Suma), sd=sd(ostateczne$Suma))
+```
