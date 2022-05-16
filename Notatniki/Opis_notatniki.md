@@ -1,2 +1,0 @@
-# Opis notaników
-Notatniki rmd mają kod źródłowy i małe notatki. Pliki HTML są utworzone dzięki funkcji knit z plików rmd. Plik skryptu zawiera ten sam kod co notatniki jednakże jest w całości plikiem kodu, a jego kompilacja i wyniki działań to plik pdf. Tam znajdują się wszystkie wyniki, więc w przypadku potrzeby sprawdzenia poprawności komend i obliczeń odsyłam do niego - [Artykul-tex](https://github.com/Resuffid/Artykul-naukowy/blob/main/Pliki_artykulu/Artykul-tex.pdf).
