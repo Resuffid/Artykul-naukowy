@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  19 MAY 2022 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  19 MAY 2022 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,7 +497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./boxwhisk.png>]
-Overfull \hbox (5.98299pt too wide) in paragraph at lines 108--109
+Overfull \hbox (5.98299pt too wide) in paragraph at lines 107--108
  [] \T1/ptm/m/n/12 Plat-for-ma In-sta-gram, któ-ra ak-tu-al-nie sta-no-wi naj-p
 o-pu-lar-niej-szy ser-wis spo-ªecz-no-±cio-wy w±ród
  []
@@ -519,7 +519,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9] (./Artykul-tex.bbl
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -528,7 +528,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10])
+[10] (./Artykul-tex.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -537,12 +537,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11] (./Artykul-tex.aux) ) 
+[11])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12] (./Artykul-tex.aux) ) 
 Here is how much of TeX's memory you used:
- 4742 strings out of 478994
- 65742 string characters out of 5858184
- 371864 words of memory out of 5000000
- 22122 multiletter control sequences out of 15000+600000
+ 4744 strings out of 478994
+ 65757 string characters out of 5858184
+ 371898 words of memory out of 5000000
+ 22124 multiletter control sequences out of 15000+600000
  444955 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,17n,78p,4672b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -555,10 +564,10 @@ f-dist/fonts/type1/public/pl/plr8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on Artykul-tex.pdf (12 pages, 163394 bytes).
+Output written on Artykul-tex.pdf (13 pages, 164220 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
