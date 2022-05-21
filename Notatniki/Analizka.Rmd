@@ -51,6 +51,9 @@ shapiro.test(ostateczne$Suma)
 ```{r}
 # D-cohena (siła efektu)
 cohensD(Suma ~ Modyfikacja, data = ostateczne)
+ostateczne <- ostateczne %>%
+  mutate(Modyfikacja = as.factor(Modyfikacja))
+cohen.d(ostateczne$Suma, ostateczne$Modyfikacja)
 ```
 
 # Histogramy
@@ -77,9 +80,4 @@ ggsave(
   filename = "boxwhisk.png",
   plot = last_plot())
   
-```
-
-```{r}
-#test Kołmogorowa-Smirnowa
-ks.test(ostateczne$Suma, "pnorm", mean=mean(ostateczne$Suma), sd=sd(ostateczne$Suma))
 ```
